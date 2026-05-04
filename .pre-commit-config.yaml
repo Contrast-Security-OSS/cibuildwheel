@@ -99,3 +99,7 @@ repos:
       files: '^docs/data/projects.yml$'
     - id: check-metaschema
       files: '^docs/data/projects.schema.json$'
+- repo: https://github.com/gitleaks/gitleaks
+  rev: v8.16.3
+  hooks:
+  - id: gitleaks
